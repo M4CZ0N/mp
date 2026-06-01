@@ -19,13 +19,12 @@
         </div>
 
         <nav>
-            <a href="#home" data-pl="Index" data-de="Start">Index</a>
+            <a href="#home" data-pl="Start" data-de="Start">Start</a>
             <a href="#oferta" data-pl="Zakres" data-de="Angebot">Zakres</a>
             <a href="#o-mnie" data-pl="O mnie" data-de="Über mich">O mnie</a>
             <a href="#kontakt" data-pl="Kontakt" data-de="Kontakt">Kontakt</a>
         </nav>
         <button class="menu-toggle" id="menuToggle">☰</button>
-
         <button class="lang-switch" id="langBtn">DE</button>
     </div>
 </header>
@@ -172,12 +171,12 @@ langBtn.addEventListener("click", () => {
 });
 </script>
 <script>
-const menuToggle = document.getElementById("menuToggle");
-const nav = document.querySelector("nav");
+    const menuToggle = document.getElementById("menuToggle");
+    const nav = document.querySelector("nav");
 
-menuToggle.addEventListener("click", () => {
-    nav.classList.toggle("open");
-});
+    menuToggle.addEventListener("click", () => {
+        nav.classList.toggle("open");
+    });
 </script>
 
 </body>
